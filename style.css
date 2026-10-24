@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px; 
+} 
+
+.title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  margin: 0;
+  text-align: center;
+  color: #515076;
+}
+
+.products-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.product-card {
+  background-color: #F7F7FA;
+padding: 25px;
+padding-right: 0px;
+width: 315px;
+}
+
+.main-text {
+  color: #515076;
+
+}
+
+.main-text2 {
+  font-size: 12px;
+  color: #A5A3B9;
+  text-transform: uppercase
+}
+
+.price {
+  line-height: 40px;
+}
+
+.price,
+.pr {
+  font-size: 20px;
+}
