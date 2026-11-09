@@ -1,5 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
+  background-image: url(/images/bg\ 1.jpg);
+  background-repeat: no-repeat;
   font-size: 13px;
   line-height: 18px; 
 } 
@@ -16,8 +18,13 @@ body {
 .products-list {
   list-style: none;
   padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  margin: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 45px;
+  column-gap: 45px;
+  justify-content: space-between;
+  width: 1110px;
 }
 
 .product-card {
@@ -25,6 +32,12 @@ body {
 padding: 25px;
 padding-right: 0px;
 width: 315px;
+}
+
+.main-text price, .main-text pr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .main-text {
